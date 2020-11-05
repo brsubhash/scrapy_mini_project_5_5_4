@@ -1,0 +1,7 @@
+>> scrapy shell 'http://quotes.toscrape.com/page/1/'
+
+
+>> scrapy startproject scrapy_mini_project_5_5_4
+
+How to run our spider
+>> scrapy crawl toscrape-css -o ./output/toscrape-css.json
